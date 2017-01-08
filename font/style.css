@@ -1,0 +1,11 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url('./fonts/MyriadPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/MyriadPro-Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('./fonts/MyriadPro-Bold.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/MyriadPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/MyriadPro-Bold.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}

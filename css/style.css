@@ -1,0 +1,153 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: url('./fonts/MyriadPro-Bold.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./fonts/MyriadPro-Bold.woff2') format('woff2'), /* Modern Browsers */
+    url('./fonts/MyriadPro-Bold.woff') format('woff'), /* Modern Browsers */
+    url('./fonts/MyriadPro-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/MyriadPro-Bold.svg') format('svg'); /* Legacy iOS */  font-weight: normal;
+  font-style: normal;
+}
+
+.body{
+	font-family:'MyriadPro-Bold' sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+    display: inline-block;
+     line-height: 30px;
+}
+
+.a{
+    display: block;
+}
+
+section{
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 100vh;
+    overflow: hidden;
+}
+
+.top{
+	position: absolute;
+    top: 31%;
+    left: 46%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+}
+	
+
+img{
+	 
+	 max-width: 100%;
+    display: block;
+    width: 100px;
+}
+.bottom{
+    float: left;
+    width:50%;
+}
+.bottom h1{
+	font-size: 80px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 38%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+span{
+       font-size: 80px;
+    margin: 0 auto;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    position: absolute;
+    top: 62%;
+    left: 28%;
+   transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+   
+}
+
+
+
+.bottom h5{
+    color: white;
+    position: absolute;
+    top: 67%;
+    left: 41%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    font-size: 17px;
+    }
+
+
+
+
+.btn{
+text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background: grey;
+    padding: 15px 28px;
+    border: 1px solid white;
+    border-radius: 3px;
+    float: left;
+    display: block;
+    position: relative;
+    left: 78%;
+    transform: translateY(961%);
+    --moz--transform: translateY(961%);
+    --webkit--transform: translateY(961%);
+    margin: 0 auto;
+    
+}
+
+
+nav{
+   
+ }
+ nav ul{   
+
+  margin: 0 auto;
+    padding: 10px;
+    text-align: right;
+    
+ }
+ nav ul li{
+           list-style: none;
+    display: table-row-group;
+}
+ nav ul li img{
+         text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    position: relative;
+    left: -668px;
+    transform: translateY(-23%);
+    width: 100px;
+ }
+ 
